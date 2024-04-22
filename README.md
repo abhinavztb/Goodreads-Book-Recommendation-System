@@ -77,6 +77,29 @@ After adding column “Rating_dist”
 Ball tree is used for the Nearest Neighbour search. The Ball Tree and the KD Tree algorithm are tree algorithms used for spatial division of data points and their allocation into certain regions. In other words, they are used to structure data in a multidimensional space.
 Creating specific functions to help in finding the book names:
 ● Get index from Title
+
 ● Get ID from partial name (Because not everyone can remember all the names)
+
 ● Print the similar books from the feature dataset. (This uses the Indices metric from the nearest
-neighbors to pick the books.)
+neighbors to pick the books.
+
+### Model evaluation
+Model evaluation of collaborative filtering-based recommendation systems is important because it helps to determine the effectiveness and accuracy of the recommendations being made by the system. A well-evaluated model can provide more accurate and relevant recommendations to users, leading to a better user experience and increased engagement.
+Predictive accuracy: The primary goal of a recommendation system is to make accurate recommendations to users. Therefore, it is important to measure the accuracy of the model's predictions. One way to do this is by using the Root Mean Squared Error (RMSE) metric.
+
+Procedure followed to calculate RMSE for our model:
+
+· Split the dataset into a training set and a test set (70:30 ratio).
+
+· Train the model on the training set.
+
+· Make predictions on the test set using the trained model.
+
+· Calculate the difference between the predicted ratings and the actual ratings for each user-item pair in the test set.
+
+· Calculate the square root of the mean of the squared differences.
+### Output:
+ RMSE value for our model : 0.28
+The RMSE (Root Mean Squared Error) value for the model is a measure of the model's performance in predicting the ratings of items for users. A lower RMSE value indicates that the model is making more accurate predictions, while a higher RMSE value indicates that the model is making less accurate predictions.
+### Conclusion:
+In this case, an RMSE value of 0.28 for the model is relatively low, indicating that the model is making relatively accurate predictions. This suggests that the model is well-tuned and performing well, or that the data being used to train the model is of high quality.
