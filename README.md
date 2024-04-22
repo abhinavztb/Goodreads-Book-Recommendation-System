@@ -12,3 +12,9 @@ A population-based recommendation system is a type of recommendation system that
 Collaborative filtering is a technique used to make recommendations based on the preferences of a group of users. It works by analyzing the past behavior of a group of users and identifying items that are highly rated by similar users.
 There are two main types of collaborative filtering: user-based and item-based. In user-based collaborative filtering, recommendations are made based on the preferences of similar users. For example, if Alice and Bob both rated a particular movie highly, and Alice also rated a second movie highly, the system might recommend the second movie to Bob.
 In item-based collaborative filtering, recommendations are made based on the similarity between items. For example, if Alice and Bob both rated a particular movie highly, and the movie is similar to a second movie that Alice also rated highly, the system might recommend the second movie to Bob.
+
+### Dataset description
+
+For the reviews dataset, we have 7 columns and 1378033 rows. Sample head of the data is:
+
+![image](https://github.com/abhinavztb/Goodreads-Book-Recommendation-System/assets/28789570/2901469e-eb83-4bfc-b4b5-aa85dbf5414c)
